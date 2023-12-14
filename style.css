@@ -18,8 +18,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40rem;
-    height: 25rem;
+    width: 45rem;
+    height: 30rem;
     margin: auto;
    background-color: #f4ebe4; 
   /* margin: 12rem 3rem 6rem 9rem;
@@ -28,7 +28,7 @@ main {
 
 .section-one {
     width: 20rem;
-    height: 20rem;
+    height: 30rem;
     
     
 }
@@ -42,7 +42,47 @@ main {
 
 .section-2 {
     width: 20rem;
-    height: 20rem; 
+    height: 30rem; 
     padding: 2rem;
     background-color: white;
+}
+.perfume,
+.solar {
+    color: #adacb1;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.first-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    padding: 10px 0px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.btn img {
+    width: 1rem;
+    height: 2rem;
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: white;
 }
